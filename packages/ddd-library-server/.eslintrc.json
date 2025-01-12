@@ -1,0 +1,6 @@
+{
+  "extends": "@zdrbm/eslint-config-zdr",
+  "globals": {
+    "NodeJS": true
+  }
+}

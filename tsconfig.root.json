@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "target": "ES2021",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "module": "ESNext",
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": false,
+    "forceConsistentCasingInFileNames": true
+  }
+}

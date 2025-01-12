@@ -1,0 +1,317 @@
+{
+  "members": [
+    {
+      "id": "5604fb9f-6ebe-45c6-9b36-84a7e20b41c1",
+      "name": "Emma Johnson",
+      "age": 36,
+
+      "membership": "basic"
+    },
+    {
+      "id": "5153b7a9-2432-478d-80eb-0db13f6cab75",
+      "name": "Liam Smith",
+      "age": 32,
+
+      "membership": "super"
+    },
+    {
+      "id": "397610d7-5b30-4c20-a003-0ee6dd053744",
+      "name": "Olivia Brown",
+      "age": 29,
+
+      "membership": "premium"
+    },
+    {
+      "id": "fda9a5bf-74dc-4041-a84a-00d9f265455e",
+      "name": "Noah Taylor",
+      "age": 56,
+
+      "membership": "basic"
+    },
+    {
+      "id": "f604d0ca-9fcf-49fa-b261-1a469db19de4",
+      "name": "Ava White",
+      "age": 37,
+
+      "membership": "basic"
+    },
+    {
+      "id": "e4afeabc-61ae-4382-a30b-831ebb4b180d",
+      "name": "William Harris",
+      "age": 29,
+
+      "membership": "basic"
+    },
+    {
+      "id": "853114a3-744f-4ad7-85f3-7b506ebc4294",
+      "name": "Sophia Martin",
+      "age": 63,
+
+      "membership": "basic"
+    },
+    {
+      "id": "b778d1e7-f736-451a-a4d1-f4070add7d61",
+      "name": "James Moore",
+      "age": 21,
+
+      "membership": "basic"
+    },
+    {
+      "id": "39edefd7-45d6-4a43-b91a-6d2065c8b7de",
+      "name": "Isabella Thompson",
+      "age": 32,
+
+      "membership": "basic"
+    },
+    {
+      "id": "3f47e82b-f100-40be-894c-762198513b7e",
+      "name": "Lucas Anderson",
+      "age": 21,
+
+      "membership": "basic"
+    },
+    {
+      "id": "9d07a0cc-1c49-4a99-97c0-9ac9a17f92c8",
+      "name": "Mia Lee",
+      "age": 58,
+
+      "membership": "basic"
+    },
+    {
+      "id": "b58d8e26-afd7-4d5b-a9ac-408e61935e75",
+      "name": "Elijah Walker",
+      "age": 20,
+
+      "membership": "basic"
+    },
+    {
+      "id": "afe678df-d822-4d0a-8a38-c6ca11730442",
+      "name": "Charlotte Hall",
+      "age": 36,
+
+      "membership": "basic"
+    },
+    {
+      "id": "a43189e0-4b5b-4549-a141-055a722adf23",
+      "name": "Benjamin Allen",
+      "age": 26,
+
+      "membership": "basic"
+    },
+    {
+      "id": "ed69b4f8-aadf-4e9a-924b-d86fc1814bae",
+      "name": "Amelia Young",
+      "age": 33,
+
+      "membership": "basic"
+    },
+    {
+      "id": "373bfd4b-cf90-4ac6-b491-4ce60dd4a4f9",
+      "name": "Henry King",
+      "age": 23,
+
+      "membership": "basic"
+    },
+    {
+      "id": "78fdb072-d12e-4d4a-b823-55650a519aeb",
+      "name": "Harper Wright",
+      "age": 36,
+
+      "membership": "basic"
+    },
+    {
+      "id": "3523c228-a2fc-456d-b1fe-7753f47bea3e",
+      "name": "Alexander Scott",
+      "age": 51,
+
+      "membership": "basic"
+    },
+    {
+      "id": "54a1a78d-237d-44cb-8cae-2a4af68ddc97",
+      "name": "Ella Green",
+      "age": 40,
+
+      "membership": "basic"
+    },
+    {
+      "id": "e1839d52-10a1-4cdd-adf4-175e84bdcf34",
+      "name": "Michael Adams",
+      "age": 26,
+
+      "membership": "basic"
+    }
+  ],
+  "loans": [
+    {
+      "id": "8d4bae1d-af6a-5f49-8697-e9c4319e0a14",
+      "bookId": "1b7d9a1c-4c34-4eb3-a1d4-2d1c4f5a6a5b",
+      "memberId": "5153b7a9-2432-478d-80eb-0db13f6cab75",
+      "loanTime": "2025-01-04T11:43:07.873Z",
+      "returnTime": "2025-01-11T11:43:07.873Z",
+      "memberName": "Liam Smith",
+      "bookTitle": "To Kill a Mockingbird"
+    }
+  ],
+  "books": [
+    {
+      "id": "1b7d9a1c-4c34-4eb3-a1d4-2d1c4f5a6a5b",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A novel about racial injustice in the Deep South.",
+      "yearPublished": 1960,
+      "quantity": 3
+    },
+    {
+      "id": "1e8f7b3a-2c34-47b2-a6b3-0d7a3d5c9b5e",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel about totalitarianism and surveillance.",
+      "yearPublished": 1949,
+      "quantity": 2
+    },
+    {
+      "id": "3c6a5b4e-7d9b-3c4f-a1c4-2b7e5d1c9f7a",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A romantic novel that also critiques societal expectations.",
+      "yearPublished": 1813,
+      "quantity": 4
+    },
+    {
+      "id": "4b3e7d5c-6a1c-3f4b-a9d1-2c7a5b3e9f6a",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A story of wealth, love, and the American Dream.",
+      "yearPublished": 1925,
+      "quantity": 1
+    },
+    {
+      "id": "5a1c9b7d-3f4e-6b2c-a7d5-4c3e9f6a5b7a",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "description": "A tale of obsession and revenge on the high seas.",
+      "yearPublished": 1851,
+      "quantity": 2
+    },
+    {
+      "id": "6c4f5d7b-3e9a-1c4b-a7d9-5a3e6b9f2a7c",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A story about teenage rebellion and alienation.",
+      "yearPublished": 1951,
+      "quantity": 5
+    },
+    {
+      "id": "7d3f4b5a-6e1c-9c4b-a3d7-2b5e7f6a9c1b",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "A fantasy adventure to reclaim a lost kingdom.",
+      "yearPublished": 1937,
+      "quantity": 4
+    },
+    {
+      "id": "8b4c3e9a-7d5f-1a3c-a9b7-6e2c5f7a1d4c",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "A historical epic about Russian society during the Napoleonic Wars.",
+      "yearPublished": 1869,
+      "quantity": 2
+    },
+    {
+      "id": "9f7a1b3e-6c4f-5d2b-a9d7-3e4a6b1c9f7a",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": "An epic poem about Odysseus’s journey home.",
+      "yearPublished": -800,
+      "quantity": 3
+    },
+    {
+      "id": "1a9c7f3e-6b4d-5c2e-a7d9-4a3e6b9f1c5a",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A dystopian novel about a technologically advanced society.",
+      "yearPublished": 1932,
+      "quantity": 5
+    },
+    {
+      "id": "2b7a6e4c-3f5d-9a1c-a4b3-7e2c9f6a1d5b",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "description": "A psychological exploration of morality and guilt.",
+      "yearPublished": 1866,
+      "quantity": 1
+    },
+    {
+      "id": "3c9f7a6b-2e4d-1a3c-a5b7-6e9c4f1d7a5c",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "description": "An epic fantasy trilogy about the fight against evil.",
+      "yearPublished": 1954,
+      "quantity": 4
+    },
+    {
+      "id": "4b5e6c9a-3f1d-7a2c-a9b7-5c3e6f7a1b4d",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "description": "A novel about love, independence, and self-discovery.",
+      "yearPublished": 1847,
+      "quantity": 3
+    },
+    {
+      "id": "5a1b9f7c-4e6d-3a2c-a5b7-9e3c4f6a1d5b",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "description": "A story of passion and revenge on the Yorkshire moors.",
+      "yearPublished": 1847,
+      "quantity": 2
+    },
+    {
+      "id": "6c9f7a1b-3e4d-5a2c-a6b7-9e1c3f4a6b5d",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "description": "A tragic tale of love and societal expectations.",
+      "yearPublished": 1877,
+      "quantity": 1
+    },
+    {
+      "id": "7d5c3e9a-6f4b-2a1c-a7b9-5c3e6f1a7d4b",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "description": "A philosophical tale about pursuing one’s dreams.",
+      "yearPublished": 1988,
+      "quantity": 4
+    },
+    {
+      "id": "8e4d1c5a-6f7b-3a9c-a2b7-5d6a3f1c9e4b",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "A story about the consequences of playing God.",
+      "yearPublished": 1818,
+      "quantity": 3
+    },
+    {
+      "id": "9f3e7b6a-1d4c-5a2c-a9b7-6e4c3f7a1d5b",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": "A classic horror novel about vampires.",
+      "yearPublished": 1897,
+      "quantity": 5
+    },
+    {
+      "id": "1a3e6b9c-5d4f-2a7c-a3b7-9e1c4f6a5d7b",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "description": "A comedic tale of chivalry and misadventure.",
+      "yearPublished": 1605,
+      "quantity": 2
+    },
+    {
+      "id": "2b7e9f6c-1d3a-5c4f-a7b3-6e4c9f1a7d5b",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "description": "An epic poem about the journey through the afterlife.",
+      "yearPublished": 1320,
+      "quantity": 3
+    }
+  ]
+}
