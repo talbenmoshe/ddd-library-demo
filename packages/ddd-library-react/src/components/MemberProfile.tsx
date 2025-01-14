@@ -34,7 +34,7 @@ export const MemberProfile: FC = () => {
         onBack={noop}
       />
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ width: 1024 }}>
+        <div style={{ maxWidth: 1024 }}>
           <Row gutter={[16, 16]}>
             <Col span={24}>
               <Card
