@@ -8,6 +8,7 @@ export function useMemberLoans(member: IMember): {loans: ILoan[], state: Loading
   useEventRefresher(member.loans.itemRemoved, member.loans.itemsAdded);
   const loans = member.loans.getOrderedItems();
   const memberLoansState = facade.ensureMemberLoansLoaded(member.getId());
+  useEventRefresher(member.loans.itemsAdded);
   const [[state]] = useReadableEventRefresher(memberLoansState);
 
   return { loans, state };
