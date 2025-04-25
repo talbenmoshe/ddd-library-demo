@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'docker-agent'
+        label 'fed-ci'
     }
     options {
       buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
