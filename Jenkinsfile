@@ -7,15 +7,15 @@ pipeline {
       disableConcurrentBuilds(abortPrevious: true)
     }
     stages {
-        stage('First Step') {
+        stage('Install') {
             steps {
-                echo 'First Step'
+                sh 'pnpm install --frozen-lockfile'
             }
         }
 
-        stage('Second Step') {
+        stage('Build') {
             steps {
-                echo 'Second Step'
+                sh 'pnpm build'
             }
         }
     }
