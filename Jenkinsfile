@@ -7,7 +7,13 @@ pipeline {
     stages {
         stage('First Step') {
             steps {
-                echo 'This is a remote 2'
+                echo 'First Step'
+            }
+        }
+
+        stage('Second Step') {
+            steps {
+                echo 'Second Step'
             }
         }
     }
