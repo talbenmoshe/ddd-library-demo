@@ -1,5 +1,11 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'ghcr.io/talbenmoshe/fed-ci-container:latest'
+            registryUrl 'https://ghcr.io'
+            registryCredentialsId 'ghcr-creds'
+        }
+    }
     options {
       buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
       disableConcurrentBuilds(abortPrevious: true)
