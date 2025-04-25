@@ -18,5 +18,11 @@ pipeline {
                 sh 'pnpm build'
             }
         }
+
+        stage('Tetst') {
+            steps {
+                sh 'pnpm test'
+            }
+        }
     }
 }
