@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "linux"}
+    agent any
     options {
       buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
       disableConcurrentBuilds(abortPrevious: true)
