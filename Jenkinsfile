@@ -1,10 +1,6 @@
 pipeline {
     agent {
-        docker {
-            image 'ghcr.io/talbenmoshe/fed-ci-container:latest'
-            registryUrl 'https://ghcr.io'
-            registryCredentialsId 'ghcr-creds'
-        }
+        label 'fed-ci'
     }
     options {
       buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
