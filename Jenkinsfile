@@ -1,3 +1,5 @@
+@Library("jenkins-shared-libs") _
+
 pipeline {
     agent {
         label 'fed-ci'
@@ -7,21 +9,9 @@ pipeline {
       disableConcurrentBuilds(abortPrevious: true)
     }
     stages {
-        stage('Install') {
+        stage('ZDR Build') {
             steps {
-                sh 'pnpm install --frozen-lockfile'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                sh 'pnpm build'
-            }
-        }
-
-        stage('Tetst') {
-            steps {
-                sh 'pnpm test'
+                zdrBuild()
             }
         }
     }
