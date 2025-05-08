@@ -1,4 +1,4 @@
-# DDD-LIBRARY-DEMO222
+# DDD-LIBRARY-DEMO
 
 ```bash
 > pnpm install
