@@ -12,7 +12,7 @@
     "dist/types"
   ],
   "publishConfig": {
-    "versionBumpStrategy": "minor"
+    "registry": "https://talbenmoshe.synology.me:10001/verdaccio/"
   },
   "exports": {
     ".": {

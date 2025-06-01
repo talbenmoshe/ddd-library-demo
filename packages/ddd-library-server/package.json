@@ -4,6 +4,9 @@
   "license": "MIT",
   "description": "",
   "main": "main.js",
+  "publishConfig": {
+    "registry": "https://talbenmoshe.synology.me:10001/verdaccio/"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "ts-node-dev ./src/main.ts | pino-pretty --colorize",
