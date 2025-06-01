@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://talbenmoshe.synology.me:10001/verdaccio/"
+  },
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
